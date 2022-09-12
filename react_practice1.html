@@ -67,14 +67,14 @@
             return (
                 <div>
                     <h1>Super Converter</h1>
-                    <select value={index} onChange={onSelect}>
+                    <select value={react_practice1} onChange={onSelect}>
                         <option value="xx">Select your units</option>
                         <option value="0">Minute & Hours</option>
                         <option value="1">Km & Miles</option>
                     </select>
                     <hr />
-                    {index === "0" ? <MinutesToHours /> : null}
-                    {index === "1" ? <KmToMiles /> : null}
+                    {react_practice1 === "0" ? <MinutesToHours /> : null}
+                    {react_practice1 === "1" ? <KmToMiles /> : null}
                 </div>
             );
         }
